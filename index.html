@@ -9672,7 +9672,7 @@ color: black; }
             <br class="medium-down--hide">
           
   
-          <form action="/search" method="get" class="search-bar" role="search">
+          <div  class="search-bar" role="search">
     <input type="hidden" name="type" value="product">
   
     <input type="search" name="q" value="" placeholder="Search all products..." aria-label="Search all products...">
@@ -9680,7 +9680,7 @@ color: black; }
       <span class="icon icon-search" aria-hidden="true"></span>
       <span class="fallback-text">Search</span>
     </button>
-  </form>
+  </div>
   
   
           <a href="/cart" class="header-cart-btn cart-toggle">
@@ -9919,45 +9919,11 @@ color: black; }
         <link itemprop="availability" href="http://schema.org/InStock">
   
         
-  <form method="post" action="/cart/add" id="addToCartForm-product-template" accept-charset="UTF-8" class="addToCartForm
-  " enctype="multipart/form-data" data-product-form=""><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-          <div class="selector-wrapper" style="display: none;"><select class="single-option-selector" data-option="option1" id="productSelect-product-template-option-0"><option value="Default Title">Default Title</option></select></div><select name="id" id="productSelect-product-template" class="product-variants product-variants-product-template" style="display: none;">
-            
-              
   
-                <option selected="selected" data-sku="" value="37240572969120">Default Title - €689,00 EUR</option>
-  
-              
-            
-          </select>
-  
-          
-            <label for="quantity" class="quantity-selector quantity-selector-product-template">Quantity</label>
-            
-    
-      <div class="js-qty">
-        <input type="text" class="js--num" value="1" min="1" data-id="" aria-label="quantity" pattern="[0-9]*" name="quantity" id="quantity">
-        <span class="js--qty-adjuster js--add" data-id="" data-qty="2">+</span>
-        <span class="js--qty-adjuster js--minus" data-id="" data-qty="0">-</span>
-      </div>
-    
-    
-          
-  
-          
-  
-          
-  
-          <div class="payment-buttons payment-buttons--small">
-            <button type="submit" name="add" id="addToCart-product-template1" class="btn btn--add-to-cart">
+   <button class="btn btn--add-to-cart">
               <span class="icon icon-cart"></span>
               <span id="addToCartText-product-template">Add to Cart</span>
             </button>
-  
-            
-          </div>
-        </form>
-  
         <hr class="">
       </div>
   

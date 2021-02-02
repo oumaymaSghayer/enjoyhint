@@ -2,7 +2,8 @@ var enjoyhint_instance = new EnjoyHint({});
 
 var enjoyhint_script_steps = [
   {
-    "click .search-bar": "Search for a product you're familiar with here. ",
+    "key .search-bar": "Search for a product you're familiar with here. ",
+    keyCode: 13,
     showNext: false,
     showSkip: false,
     showPrev: false,
