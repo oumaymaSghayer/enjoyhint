@@ -2,8 +2,8 @@ var enjoyhint_instance = new EnjoyHint({});
 
 var enjoyhint_script_steps = [
   {
-    "next .search-bar": "Search for a product you're familiar with here. ",
-    showNext: true,
+    "click .search-bar": "Search for a product you're familiar with here. ",
+    showNext: false,
     showSkip: false,
     showPrev: false,
     //nextButton: { className: "myNext", text: "Next" },
@@ -27,7 +27,7 @@ var enjoyhint_script_steps = [
     showPrev: false,
   },
   {
-    "next #addToCart-product-template1": "Click here to add it to your cart.",
+    "next #addToCart-product-template1": "Add it to your cart.",
     nextButton: { className: "myNext", text: "Next" },
     showSkip: false,
     showPrev: false,
